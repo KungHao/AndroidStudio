@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.miracle.firstapp.MainActivity">
+
+    <TextView
+        android:id="@+id/txtSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="39dp"
+        android:text="@string/sex"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtSex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="(輸入性別)"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txtage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="(輸入年齡)"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnOK"
+        style="@style/btnOK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="確定" />
+
+    <TextView
+        android:id="@+id/txtR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtR"
+        android:textSize="24sp" />
+</LinearLayout>
