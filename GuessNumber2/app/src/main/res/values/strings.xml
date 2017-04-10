@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GuessNumber</string>
+    <string name="txtNum">數字範圍:</string>
+    <string name="edtNum">20</string>
+</resources>
